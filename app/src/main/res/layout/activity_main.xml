@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE9E1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/math_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="@string/math_quiz"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/false_button"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/true_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <Button
+        android:id="@+id/true_button"
+        android:layout_width="146dp"
+        android:layout_height="40dp"
+        android:background="#9C27B0"
+        android:text="@string/true_button"
+        app:layout_constraintBottom_toTopOf="@+id/previous_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuestionDisplay"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <Button
+        android:id="@+id/false_button"
+        android:layout_width="146dp"
+        android:layout_height="40dp"
+        android:background="#9C27B0"
+        android:text="@string/false_button"
+        app:layout_constraintBottom_toTopOf="@+id/previous_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/true_button"
+        app:layout_constraintTop_toBottomOf="@+id/QuestionDisplay"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/shivansh_shrivastava"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/previous_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/math_quiz"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <TextView
+        android:id="@+id/QuestionDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/question_display"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/previous_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <Button
+        android:id="@+id/previous_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="224dp"
+        android:background="#F44336"
+        android:text="@string/prev_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/false_button"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="@+id/true_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android App</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="prev_button">Previous</string>
+    <string name="question_1">Q.1 This is a Good App ?</string>
+    <string name="question_2">Q.2 Gradle in android studio used for managing classes ? </string>
+    <string name="question_3">Q.3 Content Provider in android can be used as Sql Lite For Saving data ?</string>
+    <string name="question_4">Q.4 By Default the string which you define in texts are hardcoded?</string>
+    <string name="question_5">Q.5 Our First Project name is Golden Hands ? </string>
+    <string name="welcome_to_the_first_app">Is 9 not a Prime Number?</string>
+    <string name="shivansh_shrivastava">Shivansh Shrivastava</string>
+    <string name="correct_toast">Correct Answer!!</string>
+    <string name="incorrect_toast">Incorrect Answer!!</string>
+    <string name="math_quiz">Android Quiz</string>
+    <string name="question_display">Questions Will Be Displayed Here</string>
+</resources>
